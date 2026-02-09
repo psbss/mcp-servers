@@ -1,11 +1,11 @@
-# MCP-Servers
+# My MCP-Servers
 
 ## Build
 ```bash
 docker build -t my-mcp-servers .
 ```
 
-## .claude.json configuration
+## Configuration
 ```json
 "hoge": {
   "command": "opt/homebrew/bin/docker",
