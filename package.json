@@ -1,0 +1,12 @@
+{
+  "name": "mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP Servers collection for CLI usage",
+  "private": true,
+  "dependencies": {
+    "@notionhq/notion-mcp-server": "latest"
+  },
+  "scripts": {
+    "notion-mcp": "notion-mcp-server"
+  }
+}

@@ -1,0 +1,21 @@
+# MCP-Servers
+
+## Build
+```bash
+docker build -t my-mcp-servers .
+```
+
+## .claude.json configuration
+```json
+"hoge": {
+  "command": "opt/homebrew/bin/docker",
+  "args": [
+    "run",
+    "-i",
+    "--rm",
+    "-e",
+    "my-mcp-servers",
+    "npm run foobar"
+  ]
+}
+```
